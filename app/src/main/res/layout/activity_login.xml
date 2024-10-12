@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to your account"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="6dp"
+        android:layout_margin="8dp"
+        android:textColor="#000"
+        android:layout_gravity="center|left"/>
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/loginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="6dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Login" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You don't have an account"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_margin="8dp"
+        android:padding="6dp"/>
+
+    <View
+        android:id="@+id/divider111"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <Button
+        android:id="@+id/goToSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="6dp"
+        android:text="Sign Up"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

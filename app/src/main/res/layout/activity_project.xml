@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ProjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/returnToM"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:srcCompat="@drawable/retour" />
+
+        <TextView
+            android:id="@+id/projName"
+            android:layout_width="715dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Project Name"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/deleteProject"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="8dp"
+            android:text="Your Tasks"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:id="@+id/addTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                app:srcCompat="@drawable/add" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Add New Task"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/tasksList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:layout_margin="6dp"/>
+
+</LinearLayout>

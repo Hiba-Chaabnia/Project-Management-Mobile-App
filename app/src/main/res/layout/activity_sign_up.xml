@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <View
+        android:id="@+id/divider45"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:padding="6dp"
+        android:text="Create an account"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/signupUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/divider88"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/divider78"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/signupPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="6dp"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FDF6FE" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="8dp"
+        android:padding="6dp"
+        android:text="Sign up"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

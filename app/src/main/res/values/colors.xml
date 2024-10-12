@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="white">#FFFF</color>
+
+    <style name="ButtonStyle">
+        <item name="android:background">#000</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

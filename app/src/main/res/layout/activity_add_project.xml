@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddProjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/returnToMain"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            app:srcCompat="@drawable/retour" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Add a new project"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#FDF6FE" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:backgroundTint="#FDF6FE" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/addProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Project Name"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:backgroundTint="#FDF6FE" />
+
+    <EditText
+        android:id="@+id/addProjectDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Due Date"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/divider444"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white"
+        android:backgroundTint="#FDF6FE" />
+
+    <TextView
+        android:id="@+id/statusMust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* dd/mm/yyyy"
+        android:textColor="#FF0000"
+        android:layout_margin="5dp"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:backgroundTint="#FDF6FE" />
+
+    <Button
+        android:id="@+id/projectAdded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#000000"
+        android:padding="2dp"
+        android:text="Add Project" />
+
+</LinearLayout>
