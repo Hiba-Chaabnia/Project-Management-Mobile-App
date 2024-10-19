@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Project-Management-Mobile-App-
-=======
 #  Project Management Mobile Application 📝
 
 This Android-based application streamlines project and task management for professionals of all levels. Whether you're a seasoned project manager, a team leader, or simply someone striving to enhance personal productivity, this app provides the tools you need to stay organized and on top of your work. 
@@ -111,7 +108,3 @@ If you have any questions or feedback, don't hesitate to reach out:
   </a>
 </p>
  
-
-
-
->>>>>>> 4b822146c071b482b074bde1730c7d80f2c64b58
