@@ -1,6 +1,7 @@
 #  Project Management Mobile Application 📝
 
-This Android-based application streamlines project and task management for professionals of all levels. Whether you're a seasoned project manager, a team leader, or simply someone striving to enhance personal productivity, this app provides the tools you need to stay organized and on top of your work. 
+This Android-based application streamlines project and task management for professionals of all levels.<br> 
+Whether you're a seasoned project manager, a team leader, or simply someone striving to enhance personal productivity, this app provides the tools you need to stay organized and on top of your work. 
 
 ## Features 🚀
 
