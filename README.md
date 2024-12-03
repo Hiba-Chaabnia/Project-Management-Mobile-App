@@ -91,10 +91,6 @@ To better understand the application's structure and flow, refer to the followin
 - 🌐 **Cloud Sync**: Add support for cloud synchronization so users can access their projects across multiple devices.
 - 📊 **Analytics Dashboard**: Provide users with analytics view to track their progress over time.
  
-## Contribution Guidelines 🤝
-
-Contributions are welcome! If you'd like to make changes to the project or report bugs, feel free to open an issue or submit a pull request.
-
 ## Contact 📬
 
 If you have any questions or feedback, don't hesitate to reach out:
